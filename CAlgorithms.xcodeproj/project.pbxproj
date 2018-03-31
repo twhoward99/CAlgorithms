@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2088C8A1206F55E900BEEF82 /* quicksort.c in Sources */ = {isa = PBXBuildFile; fileRef = 2088C8A0206F55E900BEEF82 /* quicksort.c */; };
+		2088C8A4206F5A0400BEEF82 /* compareutility.c in Sources */ = {isa = PBXBuildFile; fileRef = 2088C8A3206F5A0400BEEF82 /* compareutility.c */; };
 		20B41745206F14F5007034D7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 20B41744206F14F5007034D7 /* main.c */; };
 		20B4174E206F19D5007034D7 /* cunittests.c in Sources */ = {isa = PBXBuildFile; fileRef = 20B4174D206F19D5007034D7 /* cunittests.c */; };
 /* End PBXBuildFile section */
@@ -24,6 +26,10 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		2088C89F206F55E900BEEF82 /* quicksort.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = quicksort.h; sourceTree = "<group>"; };
+		2088C8A0206F55E900BEEF82 /* quicksort.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = quicksort.c; sourceTree = "<group>"; };
+		2088C8A2206F5A0400BEEF82 /* compareutility.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = compareutility.h; sourceTree = "<group>"; };
+		2088C8A3206F5A0400BEEF82 /* compareutility.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = compareutility.c; sourceTree = "<group>"; };
 		20B41741206F14F5007034D7 /* CAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B41744206F14F5007034D7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		20B4174B206F16A8007034D7 /* minunit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = minunit.h; sourceTree = "<group>"; };
@@ -65,6 +71,10 @@
 				20B4174B206F16A8007034D7 /* minunit.h */,
 				20B4174C206F19D5007034D7 /* cunittests.h */,
 				20B4174D206F19D5007034D7 /* cunittests.c */,
+				2088C89F206F55E900BEEF82 /* quicksort.h */,
+				2088C8A0206F55E900BEEF82 /* quicksort.c */,
+				2088C8A2206F5A0400BEEF82 /* compareutility.h */,
+				2088C8A3206F5A0400BEEF82 /* compareutility.c */,
 			);
 			path = CAlgorithms;
 			sourceTree = "<group>";
@@ -126,8 +136,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2088C8A4206F5A0400BEEF82 /* compareutility.c in Sources */,
 				20B41745206F14F5007034D7 /* main.c in Sources */,
 				20B4174E206F19D5007034D7 /* cunittests.c in Sources */,
+				2088C8A1206F55E900BEEF82 /* quicksort.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
