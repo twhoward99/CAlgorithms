@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		20B41745206F14F5007034D7 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = 20B41744206F14F5007034D7 /* main.c */; };
+		20B4174E206F19D5007034D7 /* cunittests.c in Sources */ = {isa = PBXBuildFile; fileRef = 20B4174D206F19D5007034D7 /* cunittests.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -26,6 +27,8 @@
 		20B41741206F14F5007034D7 /* CAlgorithms */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CAlgorithms; sourceTree = BUILT_PRODUCTS_DIR; };
 		20B41744206F14F5007034D7 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
 		20B4174B206F16A8007034D7 /* minunit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = minunit.h; sourceTree = "<group>"; };
+		20B4174C206F19D5007034D7 /* cunittests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cunittests.h; sourceTree = "<group>"; };
+		20B4174D206F19D5007034D7 /* cunittests.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = cunittests.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +63,8 @@
 			children = (
 				20B41744206F14F5007034D7 /* main.c */,
 				20B4174B206F16A8007034D7 /* minunit.h */,
+				20B4174C206F19D5007034D7 /* cunittests.h */,
+				20B4174D206F19D5007034D7 /* cunittests.c */,
 			);
 			path = CAlgorithms;
 			sourceTree = "<group>";
@@ -122,6 +127,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				20B41745206F14F5007034D7 /* main.c in Sources */,
+				20B4174E206F19D5007034D7 /* cunittests.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
